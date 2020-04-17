@@ -92,7 +92,7 @@ public class Mergelead {
 		driver.findElementByXPath("(//a[@class='linktext'])[1]").click();
 		Thread.sleep(2000);
 		// click on the first lead id
-		driver.findElementByXPath("(//td[contains(@class,'x-grid3-col x-grid3-cell')]//div)[1]").click();
+		//driver.findElementByXPath("(//td[contains(@class,'x-grid3-col x-grid3-cell')]//div)[1]").click();
 		Thread.sleep(2000);
 		
 		driver.switchTo().window(list1.get(0));
